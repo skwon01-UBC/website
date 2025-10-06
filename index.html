@@ -36,11 +36,11 @@
                   </p>
 
                   <p style="text-align:center">
-                    <a href="mailto:14kwonss@gmail.com">Email</a>  / 
-                    <a href="data/Sang_CV.pdf">CV</a>  / 
-                    <a href="https://scholar.google.com/citations?user=biJOB9MAAAAJ&amp;hl=en&amp;oi=sra">Scholar</a>  / 
-                    <a href="https://x.com/SangyooonKwon">Twitter</a>  /
-                    <a href="https://www.linkedin.com/in/sang-yun-kwon-9476781ab/">LinkedIn</a>  /
+                    <a href="mailto:14kwonss@gmail.com">Email</a>  / 
+                    <a href="data/Sang_CV.pdf">CV</a>  / 
+                    <a href="https://scholar.google.com/citations?user=biJOB9MAAAAJ&amp;hl=en&amp;oi=sra">Scholar</a>  / 
+                    <a href="https://x.com/SangyooonKwon">Twitter</a>  /
+                    <a href="https://www.linkedin.com/in/sang-yun-kwon-9476781ab/">LinkedIn</a>  /
                   </p>
                 </td>
                 <td style="padding:2.5%;width:37%;max-width:37%">
@@ -85,6 +85,45 @@
 
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
+              <tr onmouseout="voice_stop()" onmouseover="voice_start()">
+                <td style="padding:16px;width:20%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id="voice_image"><video autoplay="" loop="" muted="" width="100%">
+                      <source src="images/voice_logo.jpeg" type="video/mp4"/>
+                      Your browser does not support the video tag.
+                    </video></div>
+                    <img src="images/voice_logo.jpeg" width="100%"/>
+                  </div>
+                  <script type="text/javascript">
+                    function voice_start() {
+                      document.getElementById('voice_image').style.opacity = "1";
+                    }
+                    function voice_stop() {
+                      document.getElementById('voice_image').style.opacity = "0";
+                    }
+                    voice_stop()
+                  </script>
+                </td>
+                <td style="padding:8px;width:80%;vertical-align:middle">
+                  <span class="papertitle">Voice of a Continent: Mapping Africa's Speech Technology Frontier</span>
+                  <br/>
+                  AbdelRahim Elmadany,
+                  <strong>Sang Yun Kwon</strong>,
+                  Hawau Olamide Toyin,
+                  Alcides Alcoba Inciarte,
+                  Hanan Aldarmaki,
+                  Muhammad Abdul-Mageed
+                  <br/>
+                  <em><strong>arXiv preprint</strong></em>, 2025
+                  <br/>
+                  <a href="https://arxiv.org/abs/2505.18436">Paper</a>
+                  <p></p>
+                  <p>
+                    A comprehensive survey mapping the current state of speech technology for African languages.
+                  </p>
+                </td>
+              </tr>
+
               <tr onmouseout="r2r_stop()" onmouseover="r2r_start()">
                 <td style="padding:16px;width:20%;vertical-align:middle">
                   <div class="one">
@@ -128,23 +167,23 @@
 
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
-              <tr onmouseout="r2r_stop()" onmouseover="r2r_start()">
+              <tr onmouseout="gazelle_stop()" onmouseover="gazelle_start()">
                 <td style="padding:16px;width:20%;vertical-align:middle">
                   <div class="one">
-                    <div class="two" id="r2r_image"><video autoplay="" loop="" muted="" width="100%">
-                      <source src="gazelle_logo.png" type="video/mp4"/>
+                    <div class="two" id="gazelle_image"><video autoplay="" loop="" muted="" width="100%">
+                      <source src="images/gazelle_logo.png" type="video/mp4"/>
                       Your browser does not support the video tag.
                     </video></div>
                     <img src="images/gazelle_logo.png" width="100%"/>
                   </div>
                   <script type="text/javascript">
-                    function r2r_start() {
-                      document.getElementById('r2r_image').style.opacity = "1";
+                    function gazelle_start() {
+                      document.getElementById('gazelle_image').style.opacity = "1";
                     }
-                    function r2r_stop() {
-                      document.getElementById('r2r_image').style.opacity = "0";
+                    function gazelle_stop() {
+                      document.getElementById('gazelle_image').style.opacity = "0";
                     }
-                    r2r_stop()
+                    gazelle_stop()
                   </script>
                 </td>
                 <td style="padding:8px;width:80%;vertical-align:middle">
